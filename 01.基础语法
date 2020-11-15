@@ -1,1 +1,44 @@
+# 注释，行与缩进省略
 
+（1）多行语句：
+        如果语句很长，我们可以使用反斜杠\实现多行语句。 在[],{},()中多行语句不需要加\。
+
+（2）Number类型：
+        int,bool,float, complex
+    
+（3）字符串：
+        1.python中单引号和双引号的使用相同;
+        2.字符串可以用+运算符连在一起;
+        3.索引方式，从左往右以0开始，从右往左以-1开始;
+        4.python的字符串不能改变
+        5.字符串截取：变量[头下标：尾下标：步长]
+    
+（4）import 和 from...import：
+        1.将整个模块(somemodule)导入，格式为： import somemodule
+        2.从某个模块中导入某个函数,格式为： from somemodule import somefunction
+        3.从某个模块中导入多个函数,格式为： from somemodule import firstfunc, secondfunc, thirdfunc
+        4.将某个模块中的全部函数导入，格式为： from somemodule import *
+
+（5）标准数据类型：
+        Number（数字），String（字符串），List（列表），Tuple（元组），Set（集合），Dictionary（字典）
+        不可变数据（3 个）：Number（数字）、String（字符串）、Tuple（元组）；
+        可变数据（3 个）：List（列表）、Dictionary（字典）、Set（集合）。
+        
+（6）isinstance：
+        用来判断类型是否相同
+        Eg:
+        class A:
+            pass
+ 
+        class B(A):
+            pass
+
+        isinstance(A(), A)
+        True
+        type(A()) == A 
+        True
+        isinstance(B(), A)
+        type(B()) == A
+        False
+        
+（7）
